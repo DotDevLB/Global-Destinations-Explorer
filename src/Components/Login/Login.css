@@ -1,0 +1,65 @@
+
+  .application {
+    color: slateblue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+
+  .login_button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: slateblue;
+    font-weight: 1000;
+    width: calc(100% - 40px); /* Set button width to fill container */
+  }
+  
+  .login_button:hover {
+    background-color: rgb(118, 104, 206);
+  }
+  
+
+  .login_container {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    flex-direction: column;
+    text-align: center; /* Align text/content center */
+    opacity: 0.92; /* Set the opacity value */  
+}
+  
+  input {
+    width: calc(100% - 40px); /* Subtracting total padding (20px each side) from the width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(138, 134, 134); /* Create a bottom border line */
+    outline: none; /* Remove the default outline */
+    background-color: whitesmoke; /* Set background color */
+    box-sizing: border-box; /* To include padding in width calculation */
+  }
+  
+  .login_cancel{
+    position:absolute;
+    top:5px;
+    right:5px;
+    cursor:pointer;
+    /* color:rgb(82, 69, 163) ; */
+    color:tomato
+  }
+  

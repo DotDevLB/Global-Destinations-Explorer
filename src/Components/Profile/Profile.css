@@ -1,0 +1,131 @@
+.cancelButton{
+    position:absolute;
+    top:5px;
+    right:5px;
+    cursor:pointer;
+    
+    color:tomato
+  }
+
+  /* Profile container */
+.profile {
+    width: 90%; /* Adjust the width as needed */
+    max-width: 800px; /* Set a maximum width if required */
+    height: 60%;
+    margin: 0 auto;
+    padding: 40px; /* Increase padding for more space inside the container */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  
+    /* Centering styles */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Set a z-index value */
+  }
+
+/* Profile heading */
+.profile h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Profile details */
+.profile-details {
+  display: flex;
+  align-items: center;
+}
+
+/* User details */
+.user-details p {
+  margin-bottom: 10px;
+}
+
+/* User details - strong text */
+.user-details p strong {
+  font-weight: bold;
+}
+
+/* Button beside the password */
+.user-details button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: blue;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.Uprofile {
+  width: 90%;
+  max-width: 800px;
+  height: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Set a higher z-index value than profile */
+}
+
+.Uprofile h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Uprofile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.Uuser-details p {
+  margin-bottom: 10px;
+}
+
+.Uuser-details strong {
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: calc(100% - 30px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="date"] {
+  width: calc(100% - 30px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-image-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; 
+  overflow: hidden; 
+  margin-top: -30px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  
+}

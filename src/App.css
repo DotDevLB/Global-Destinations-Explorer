@@ -1,38 +1,229 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  background-color: rgb(5, 15, 29);
+  padding: 10px;
+  z-index: 100;
+}
+.footer:hover {
+  box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48),
+    -6px -2px 16px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-right: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button.logout {
+  background-color: tomato;
+}
+
+.button.login {
+  background-color: teal;
+}
+
+.button.register {
+  background-color: blue;
+}
+
+/* Hover styles */
+.button.login:hover {
+  background-color: rgb(0, 76, 76);
+}
+
+.button.logout:hover {
+  background-color: #ff6347; /* A brighter color close to tomato */
+}
+.button.register:hover {
+  background-color: darkblue;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  border-radius: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.place {
+  font-size: 14px;
+}
+label{
+  color: blue;
+  font-size: 13px;
+  border-bottom-style: solid;
+  border-bottom-width: 1.5px;
+  border-bottom-color: darkblue;
+  margin:3px 0;
+}
+
+.fform label {
+  color: blue;
+  font-size: 13px;
+  border-bottom: 1.5px solid darkblue;
+  margin: 8px 0;
+}
+
+.descr {
+  font-size: 13px;
+}
+.stars {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.stars .star {
+  color: goldenrod;
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: lightgrey;
+}
+
+.timeago {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: lightgrey;
+}
+
+.fform {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fform input,
+.fform textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.fform input::placeholder,
+.ffrom textarea::placeholder {
+  font-size: 12px;
+  color: lightgray;
+}
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+  background-color: #f7746d; /* Pale red */
+}
+.submitButton:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.userNameLabel {
+  font-size: 16px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.userNameLabel:hover {
+  font-size: 17px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button-container {
+  display: flex;
+  width: 100%; /* Adjust the width as needed */
+  justify-content: space-between; /* Distribute space between buttons */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.deleteButton,
+.updateButton {
+  flex: 1; /* Allow buttons to fill available space */
+  padding: 8px 12px; /* Add padding as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
 }
+
+.deleteButton {
+  background-color: tomato;
+  color: white;
+  margin-right: 8px; /* Create space between buttons */
+}
+
+.updateButton {
+  background-color: lightgreen;
+  color: black;
+  margin-left: 8px; /* Create space between buttons */
+}
+.username{
+  cursor: pointer;
+}
+/* Styles for the user profile popup */
+.user-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
+.user-popup h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.user-details {
+  line-height: 1.6;
+}
+
+.user-details p {
+  margin: 8px 0;
+}
+
+.user-details strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Additional styles as needed */
