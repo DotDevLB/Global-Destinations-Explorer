@@ -3,8 +3,6 @@
 ## Overview
 
 Welcome to the Global Destinations Explorer, an interactive web application designed to revolutionize the way users discover tourist destinations around the globe. This project is a testament to my ability in full-stack web development, geospatial data visualization, and real-time API integration, aimed at providing users with a unique and immersive way to plan their travels.
-![Homepage View](path/to/homepage_screenshot.jpg)
-*The interactive 3D globe showcasing tourist destinations.*
 
 ## Features
 
@@ -16,26 +14,26 @@ Utilizing cutting-edge JavaScript libraries, this application features an intera
 ### Destination Insights
 Each destination pin provides users with valuable insights:
 
--**Ratings:** Explore user-generated ratings to gauge the popularity and appeal of destinations.
--**Current Weather:** Integrated with OpenWeatherMap API, it offers real-time weather data to help users plan their visits effectively.
--**Community Chat Room:** Engage with a community of travelers through destination-specific chat rooms, where users can share experiences, tips, and photos.
--**Favorites and Personalization:** Users can mark destinations as favorites, which are highlighted for easy access. Personal pins are displayed in red, offering a visual distinction.
+**- Ratings:** Explore user-generated ratings to gauge the popularity and appeal of destinations.
+**- Current Weather:** Integrated with OpenWeatherMap API, it offers real-time weather data to help users plan their visits effectively.
+**- Community Chat Room:** Engage with a community of travelers through destination-specific chat rooms, where users can share experiences, tips, and photos.
+**- Favorites and Personalization:** Users can mark destinations as favorites, which are highlighted for easy access. Personal pins are displayed in red, offering a visual distinction.
 
 ### Proximity-Based Destination Discovery
 Leveraging geolocation technology, the application automatically identifies the user's current location, such as Paris, and displays nearby destinations. This feature is designed to offer personalized recommendations, making it easier for users to find exciting places to visit.
 
 ### Screenshots and Demo
-**-Interactive 3D Globe: **
-**-Destination Details Overlay: **
+**- Interactive 3D Globe: **
+**- Destination Details Overlay: **
 For a full demonstration of the application's capabilities, watch this screen recording: Screen Recording Link. 
 
 ### Technologies
 This project showcases my expertise in the following technologies:
 
--**Frontend:** HTML5, CSS3, JavaScript, with libraries for creating interactive 3D visualizations.
--**Backend:** Node.js and Express.js for server-side functionality.
--**APIs:** OpenStreetMap for mapping data and OpenWeatherMap for weather information, demonstrating my ability to integrate and utilize complex APIs.
--**Database:** MySQL, used for storing detailed information about destinations, user ratings, and chat messages, showcasing my skills in database design and management. 
+**- Frontend:** HTML5, CSS3, JavaScript, with libraries for creating interactive 3D visualizations.
+**- Backend:** Node.js and Express.js for server-side functionality.
+**- APIs:** OpenStreetMap for mapping data and OpenWeatherMap for weather information, demonstrating my ability to integrate and utilize complex APIs.
+**- Database:** MySQL, used for storing detailed information about destinations, user ratings, and chat messages, showcasing my skills in database design and management. 
 
 ## Getting Started
 
