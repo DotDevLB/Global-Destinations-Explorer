@@ -34,10 +34,6 @@ Leveraging geolocation technology, the application automatically identifies the 
 *Show Favorites.*
 ![Screenshot 2024-02-21 115623 - Copy](https://github.com/joe-hadchity/XploreApp/assets/105626252/8879d2bd-ef1d-429d-9d4a-70b23ac8b35f)
 
-- Destination Details Overlay:
-
-For a full demonstration of the application's capabilities, watch this screen recording: Screen Recording Link. 
-
 ### Technologies
 This project showcases my expertise in the following technologies:
 
