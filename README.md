@@ -8,7 +8,7 @@ Welcome to the Global Destinations Explorer, an interactive web application desi
 
 ### Interactive 3D Globe
 Utilizing cutting-edge JavaScript libraries, this application features an interactive 3D globe where users can discover tourist destinations marked by pins. This globe serves as the centerpiece, offering users a dynamic and engaging way to explore the world.
-![Interactive 3D Globe](21.02.2024_11.30.35_REC - Copy.mp4)
+https://github.com/joe-hadchity/XploreApp/assets/105626252/62594b80-c68a-42e6-b2f5-c639fcb6cb6c
 *Tourist destinations marked on the globe.*
 
 ### Destination Insights
@@ -23,9 +23,14 @@ Each destination pin provides users with valuable insights:
 Leveraging geolocation technology, the application automatically identifies the user's current location, such as Paris, and displays nearby destinations. This feature is designed to offer personalized recommendations, making it easier for users to find exciting places to visit.
 
 ### Screenshots and Demo
-- Interactive 3D Globe:
+![Screenshot 2024-02-21 112146](https://github.com/joe-hadchity/XploreApp/assets/105626252/a5c18cf2-f333-4447-8c80-8dfead625b19)
+![redpins](https://github.com/joe-hadchity/XploreApp/assets/105626252/aa3e7a23-9e28-4d64-b327-471d061815b6)
+![addpins](https://github.com/joe-hadchity/XploreApp/assets/105626252/07065c31-79ca-48da-929c-a89afeb85fb2)
+![Screenshot 2024-02-21 112146](https://github.com/joe-hadchity/XploreApp/assets/105626252/98d72818-8c9b-4c85-849c-fd1ddb459704)
+![Screenshot 2024-02-21 115623 - Copy](https://github.com/joe-hadchity/XploreApp/assets/105626252/8879d2bd-ef1d-429d-9d4a-70b23ac8b35f)
+
 - Destination Details Overlay:
- ![Register](registerglobe.png)
+
 For a full demonstration of the application's capabilities, watch this screen recording: Screen Recording Link. 
 
 ### Technologies
