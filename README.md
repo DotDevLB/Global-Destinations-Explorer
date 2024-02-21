@@ -23,10 +23,15 @@ Each destination pin provides users with valuable insights:
 Leveraging geolocation technology, the application automatically identifies the user's current location, such as Paris, and displays nearby destinations. This feature is designed to offer personalized recommendations, making it easier for users to find exciting places to visit.
 
 ### Screenshots and Demo
-![Screenshot 2024-02-21 112146](https://github.com/joe-hadchity/XploreApp/assets/105626252/a5c18cf2-f333-4447-8c80-8dfead625b19)
+*Register.*
+![registerglobe](https://github.com/joe-hadchity/XploreApp/assets/105626252/5e27eda3-0513-48c2-a93e-60d34301b15e)
+*Red Pins.*
 ![redpins](https://github.com/joe-hadchity/XploreApp/assets/105626252/aa3e7a23-9e28-4d64-b327-471d061815b6)
+*Add Pins.*
 ![addpins](https://github.com/joe-hadchity/XploreApp/assets/105626252/07065c31-79ca-48da-929c-a89afeb85fb2)
+*View Details.*
 ![Screenshot 2024-02-21 112146](https://github.com/joe-hadchity/XploreApp/assets/105626252/98d72818-8c9b-4c85-849c-fd1ddb459704)
+*Show Favorites.*
 ![Screenshot 2024-02-21 115623 - Copy](https://github.com/joe-hadchity/XploreApp/assets/105626252/8879d2bd-ef1d-429d-9d4a-70b23ac8b35f)
 
 - Destination Details Overlay:
