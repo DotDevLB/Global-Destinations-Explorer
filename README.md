@@ -8,7 +8,7 @@ Welcome to the Global Destinations Explorer, an interactive web application desi
 
 ### Interactive 3D Globe
 Utilizing cutting-edge JavaScript libraries, this application features an interactive 3D globe where users can discover tourist destinations marked by pins. This globe serves as the centerpiece, offering users a dynamic and engaging way to explore the world.
-![Interactive 3D Globe](/21.02.2024_11.30.35_REC - Copy.mp4)
+![Interactive 3D Globe](21.02.2024_11.30.35_REC - Copy.mp4)
 *Tourist destinations marked on the globe.*
 
 ### Destination Insights
@@ -25,7 +25,7 @@ Leveraging geolocation technology, the application automatically identifies the 
 ### Screenshots and Demo
 - Interactive 3D Globe:
 - Destination Details Overlay:
-  (/registerglobe.png)
+ ![Register](registerglobe.png)
 For a full demonstration of the application's capabilities, watch this screen recording: Screen Recording Link. 
 
 ### Technologies
