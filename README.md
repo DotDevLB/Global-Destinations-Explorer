@@ -46,7 +46,7 @@ This project showcases my expertise in the following technologies:
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/global-destinations-explorer.git`
+1. Clone the repository: `git clone https://github.com/joe-hadchity/Global-Destinations-Explorer-Website.git`
 2. Install dependencies: `npm install`
 3. Start the application: `npm start`
 4. Open your browser and navigate to `http://localhost:3000`.
